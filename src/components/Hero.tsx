@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import { Link } from 'react-scroll';
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { useState, useEffect } from 'react';
-
+import avatar from "../assets/avatar-professional.jpg";
 const roles = ["Java Developer", "Web Developer", "Problem Solver", "Full Stack Developer","AWS Cloud"];
 
 export default function Hero() {
@@ -130,12 +130,11 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary to-secondary rounded-full animate-spin-slow opacity-20 blur-2xl" />
             <div className="absolute inset-4 border-2 border-primary/30 rounded-full animate-pulse" />
             <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/10 glass shadow-2xl">
-              <img
-                src="avatar.jpg"
-                alt="avatar"
-                className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
-              />
+             <img
+  src={avatar}
+  alt="avatar"
+  className="w-full h-full object-cover"
+/>
             </div>
           </div>
         </motion.div>
