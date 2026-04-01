@@ -131,7 +131,7 @@ export default function Hero() {
             <div className="absolute inset-4 border-2 border-primary/30 rounded-full animate-pulse" />
             <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-white/10 glass shadow-2xl">
               <img
-                src="/avata-professional.jpg.jpeg"
+                src="/avata-professional.jpg"
                 alt="Saran"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
